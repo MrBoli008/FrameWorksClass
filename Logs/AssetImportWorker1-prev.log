@@ -1,22 +1,22 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-andre" at "2026-11-05T22:23:15.2016425Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-andre" at "2026-11-05T23:03:18.0221721Z"
 Built from '6000.3/staging' branch; Version is '6000.3.7f1 (696ec25a53d1) revision 6909634'; Using compiler version '194234433'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26200) Professional' Language: 'pt' Physical Memory: 32060 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-11-05T22:23:15Z
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 6992, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+Date: 2026-11-05T23:03:18Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 9048, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.3+d7ffd15
-  Session Id:              e8ca3d06959743a6a1e0b1d629d65711
-  Correlation Id:          69ea5a0ce3533c33b2252ec9d36a38aa
-  External correlation Id: 1591642095572730886
+  Session Id:              cc39f5c5c3104533b42007ea0314a6f8
+  Correlation Id:          737a722c2b0f07100985646284676866
+  External correlation Id: 4650625361485216514
   Machine Id:              QavTE8VdhusRRdpdsR1zPEQtDio=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-andre" (connect: 0.00s, validation: 0.00s, handshake: 0.07s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-andre-notifications" at "2026-11-05T22:23:15.277253Z"
-[Licensing::Module] Licensing Background thread has ended after 0.08s
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-andre" (connect: 0.00s, validation: 0.00s, handshake: 0.20s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-andre-notifications" at "2026-11-05T23:03:18.2272471Z"
+[Licensing::Module] Licensing Background thread has ended after 0.21s
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.3.7f1\Editor\Unity.exe
@@ -30,7 +30,7 @@ C:/Users/andre/UnityProjs/FrameWorkClass
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-50854
+51047
 -licensingIpc
 LicenseClient-andre
 -job-worker-count
@@ -78,12 +78,12 @@ C:/Users/andre/UnityProjs/FrameWorkClass
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [38656]  Target information:
+Player connection [12052]  Target information:
 
-Player connection [38656]  * "[IP] 192.168.1.214 [Port] 0 [Flags] 2 [Guid] 1325678981 [EditorId] 1325678981 [Version] 1048832 [Id] WindowsEditor(7,Andre) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [12052]  * "[IP] 192.168.1.214 [Port] 0 [Flags] 2 [Guid] 3142568284 [EditorId] 3142568284 [Version] 1048832 [Id] WindowsEditor(7,Andre) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [38656] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [38656] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [12052] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [12052] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -95,7 +95,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 7.24 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 429.53 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.7f1 (696ec25a53d1)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.7f1/Editor/Data/Resources/UnitySubsystems
@@ -111,7 +111,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56832
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56836
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
@@ -122,42 +122,42 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.7f1/E
   Type: Assigned
   Expiration: Unlimited
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.7f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.009240 seconds.
-- Loaded All Assemblies, in  0.636 seconds
+Registered in 0.515576 seconds.
+- Loaded All Assemblies, in 17.118 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 384 ms
+Android Extension - Scanning For ADB Devices 658 ms
 Native extension for WindowsStandalone target not found
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.056 seconds
-Domain Reload Profiling: 1687ms
-	BeginReloadAssembly (196ms)
+- Finished resetting the current domain, in  1.446 seconds
+Domain Reload Profiling: 18556ms
+	BeginReloadAssembly (13618ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (71ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (81ms)
-	LoadAllAssembliesAndSetupDomain (263ms)
-		LoadAssemblies (189ms)
+	RebuildCommonClasses (777ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (608ms)
+	LoadAllAssembliesAndSetupDomain (2080ms)
+		LoadAssemblies (13618ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (258ms)
-			TypeCache.Refresh (255ms)
-				TypeCache.ScanAssembly (235ms)
+		AnalyzeDomain (2066ms)
+			TypeCache.Refresh (2063ms)
+				TypeCache.ScanAssembly (1581ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1057ms)
+	FinalizeReload (1447ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1003ms)
+		SetupLoadedEditorAssemblies (1389ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (545ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (125ms)
-			ProcessInitializeOnLoadAttributes (225ms)
-			ProcessInitializeOnLoadMethodAttributes (102ms)
+			InitializePlatformSupportModulesInManaged (858ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (164ms)
+			ProcessInitializeOnLoadAttributes (249ms)
+			ProcessInitializeOnLoadMethodAttributes (112ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -170,11 +170,11 @@ Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInter
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  1.242 seconds
+- Loaded All Assemblies, in 15.862 seconds
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 2.56 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 3.33 ms, found 4 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
@@ -187,44 +187,96 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.203 seconds
-Domain Reload Profiling: 2434ms
-	BeginReloadAssembly (281ms)
+- Finished resetting the current domain, in  2.336 seconds
+Domain Reload Profiling: 18185ms
+	BeginReloadAssembly (323ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
+		DisableScriptedObjects (11ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (54ms)
-	RebuildCommonClasses (52ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (63ms)
-	LoadAllAssembliesAndSetupDomain (813ms)
-		LoadAssemblies (565ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (62ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (15362ms)
+		LoadAssemblies (14661ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (399ms)
-			TypeCache.Refresh (283ms)
-				TypeCache.ScanAssembly (259ms)
-			BuildScriptInfoCaches (95ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (1204ms)
+		AnalyzeDomain (885ms)
+			TypeCache.Refresh (743ms)
+				TypeCache.ScanAssembly (718ms)
+			BuildScriptInfoCaches (117ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (2336ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (894ms)
+		SetupLoadedEditorAssemblies (1030ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (231ms)
-			ProcessInitializeOnLoadAttributes (537ms)
-			ProcessInitializeOnLoadMethodAttributes (95ms)
-			AfterProcessingInitializeOnLoad (11ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (288ms)
+			ProcessInitializeOnLoadAttributes (599ms)
+			ProcessInitializeOnLoadMethodAttributes (99ms)
+			AfterProcessingInitializeOnLoad (17ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 2.99 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 4.01 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7037 unused Assets / (4.6 MB). Loaded Objects now: 7833.
-Memory consumption went from 150.6 MB to 146.0 MB.
-Total: 11.510800 ms (FindLiveObjects: 0.883300 ms CreateObjectMapping: 0.504200 ms MarkObjects: 7.039400 ms  DeleteObjects: 3.082400 ms)
+Unloading 7037 unused Assets / (5.0 MB). Loaded Objects now: 7833.
+Memory consumption went from 150.6 MB to 145.6 MB.
+Total: 13.517900 ms (FindLiveObjects: 0.919300 ms CreateObjectMapping: 0.744900 ms MarkObjects: 8.249600 ms  DeleteObjects: 3.602600 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 805.543296 seconds.
+  path: Assets/MyPrefabs/Road.prefab
+  artifactKey: Guid(b69e0d1f72e5ab440adaef43e7b8d812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyPrefabs/Road.prefab using Guid(b69e0d1f72e5ab440adaef43e7b8d812) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e22d759d7e35289bb1eaad680a013bc9') in 0.7868371 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 69
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.414373 seconds.
+  path: Assets/MyAssets/Vegetables/Meshs/Vegetable/Fruit-Pear.fbx
+  artifactKey: Guid(aba7048baedaae24c829a486ae82643a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyAssets/Vegetables/Meshs/Vegetable/Fruit-Pear.fbx using Guid(aba7048baedaae24c829a486ae82643a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e00dbbb9135e7880d7bf4123a160770') in 0.1139489 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/MyAssets/Vegetables/Meshs/Vegetable/Vege-Ginger.fbx
+  artifactKey: Guid(59132c0b9ea8c9f41b7f34201026795d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyAssets/Vegetables/Meshs/Vegetable/Vege-Ginger.fbx using Guid(59132c0b9ea8c9f41b7f34201026795d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8227bf5b6b73faeba3f0b2502c615465') in 0.0306423 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/MyAssets/Vegetables/Meshs/Vegetable/Vege-Onion.fbx
+  artifactKey: Guid(3766dd78121310649a87b3f9daab5b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyAssets/Vegetables/Meshs/Vegetable/Vege-Onion.fbx using Guid(3766dd78121310649a87b3f9daab5b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a87d3018cdbee08d02b68b3903a47494') in 0.1165318 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/MyAssets/Vegetables/Meshs/Vegetable/Vege-Pumpkin.fbx
+  artifactKey: Guid(bc668f9c305302340a115d5f2ee1dba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyAssets/Vegetables/Meshs/Vegetable/Vege-Pumpkin.fbx using Guid(bc668f9c305302340a115d5f2ee1dba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b4af37279c4e83446bd3a961a7a3e7d') in 0.0503308 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/MyAssets/Vegetables/Meshs/Vegetable/Vege-Pepper-2.fbx
+  artifactKey: Guid(13d9ef576d0d0fd4496386f863430a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyAssets/Vegetables/Meshs/Vegetable/Vege-Pepper-2.fbx using Guid(13d9ef576d0d0fd4496386f863430a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8965431c5c20bf7cec8ae5a40b74900e') in 0.0461597 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
